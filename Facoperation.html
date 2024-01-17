@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Admin details
+</title>
+<style>
+.button {
+ background-color: blue;
+ border: none;
+ color: white;
+ padding: 5px 23px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+border-radius:9px 9px 9px 9px;
+height:30px;
+}
+form
+{
+font-size:25px;
+color:green;
+}
+</style>
+</head>
+<body align="center">
+    <H1>Faculty</H1>
+<form action="facinserta.php" method="POST">
+    <label class="label">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="text" name="f_name"><BR>   
+    <label class="label">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="password" name="psswd"><BR>
+    <label class="label">C_Password</label> &nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="password" name="f_cpsswd"><BR>
+    <label class="label">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="email" name="f_email"><BR>
+    <label class="label">Course 1</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="text" name="c1"><BR>
+    <label class="label">Course 2</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="text" name="c2"><BR>
+    <label class="label">Course 3</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="text" name="c3"><BR>
+    <label class="label">Phone Number</label>
+    <input class="input--style-4" type="text" name="phone"><BR>
+<br>
+<br><input type="submit" name="btninsert" Value="Insert" class="button">
+<input type="button" onclick="location.href='selection.php'" name="btnselect" Value="Select" class="button">
+<input type="button" onclick="location.href='updatefac.php'" name="btnupdate" Value="Update" class="button">
+<input type="button" onclick="location.href='deletefac.php'" name="btndelete" Value="Delete" class="button">
+<input type="button" onclick="location.href='Adminhome.html'" Value="Home" class="button"><br>
+</form>
+</body>
+</html>

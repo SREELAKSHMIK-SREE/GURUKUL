@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Question Paper</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <pre>
+                        <a href="index.html" class="logo">      GURUKUL</a></pre>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html" class="active">Home</a></li>  
+                            <li><a href="logina.html" class="active">Log out</a></li>   
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+    <div class="main-banner" id="top">
+        <div class="wrapper">
+            <div class="title">
+            PATTERN UPLOAD
+            </div>
+            <form method="POST" action="upload.php">
+               <div class="row row-space">
+                   <div class="col-2">
+                       <div class="field">
+                           <label class="label">Course Name</label>
+                           <input class="input--style-4" type="text" name="c_name">
+                       </div>
+                   </div>
+                   <div class="col-2">
+                     <div class="field">
+                         <label class="label">Course Code</label>
+                           <input class="input--style-4" type="text" name="c_code">
+                     </div>
+                 </div>
+                 <div class="col-2">
+                    <div class="field">
+                        <label class="label">Section A</label>
+                    </div>
+                </div>
+                 <div class="col-2">
+                  <div class="field">
+                      <label class="label">Total Marks</label>
+                      <input class="input--style-4" type="text" name="a_tmark">
+                  </div>
+              </div>
+                   <div class="col-2">
+                       <div class="field">
+                           <label class="label">Num of Questions</label>
+                           <input class="input--style-4" type="text" name="a_num">
+                       </div>
+                   </div>
+                   <div class="col-2">
+                       <div class="field">
+                           <label class="label">Mark per Question</label>
+                           <input class="input--style-4" type="text" name="a_mark">
+                       </div>
+                   </div>
+                   <div class="col-2">
+                    <div class="field">
+                        <label class="label">Section B</label>
+                    </div>
+                </div>
+                   <div class="col-2">
+                    <div class="field">
+                        <label class="label">Total Marks</label>
+                        <input class="input--style-4" type="text" name="b_tmark">
+                    </div>
+                </div>
+                     <div class="col-2">
+                         <div class="field">
+                             <label class="label">Num of Questions</label>
+                             <input class="input--style-4" type="text" name="b_num">
+                         </div>
+                     </div>
+                     <div class="col-2">
+                         <div class="field">
+                             <label class="label">Mark per Question</label>
+                             <input class="input--style-4" type="text" name="b_mark">
+                         </div>
+                     </div>
+                     <div class="col-2">
+                        <div class="field">
+                            <label class="label">Section C</label>
+                        </div>
+                    </div>
+                     <div class="col-2">
+                        <div class="field">
+                            <label class="label">Total Marks</label>
+                            <input class="input--style-4" type="text" name="c_tmark">
+                        </div>
+                    </div>
+                         <div class="col-2">
+                             <div class="field">
+                                 <label class="label">Num of Questions</label>
+                                 <input class="input--style-4" type="text" name="c_num">
+                             </div>
+                         </div>
+                         <div class="col-2">
+                             <div class="field">
+                                 <label class="label">Mark per Question</label>
+                                 <input class="input--style-4" type="text" name="c_mark">
+                             </div>
+                         </div>
+               <div class="field">
+                   <input type="submit" value="Submit" name="btninsert">
+               </div>
+            </form>
+                
+           
+    </div> 
+</body>
+</html>

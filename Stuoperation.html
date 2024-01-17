@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Admin details
+</title>
+<style>
+.button {
+ background-color: blue;
+ border: none;
+ color: white;
+ padding: 5px 23px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+border-radius:9px 9px 9px 9px;
+height:30px;
+}
+form
+{
+font-size:25px;
+color:green;
+}
+</style>
+</head>
+<body align="center">
+    <H1>Student</H1>
+<form action="stuinserta.php" method="POST">
+    <label class="label">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="text" name="uname"><BR>   
+    <label class="label">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="password" name="psswd"><BR>
+    <label class="label">C_Password</label> &nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="password" name="c_psswd"><BR>
+    <label class="label">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="email" name="email"><BR>
+    <label class="label">Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="radio" name="gender" value="Male">Male
+    <input class="input--style-4" type="radio" name="gender" value="Female">Female<br>
+    <label class="label">Department</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="input--style-4" type="text" name="dep"><BR>
+<br>
+<br><input type="submit" name="btninsert" Value="Insert" class="button">
+<input type="button" onclick="location.href='selectionstu.php'" name="btnselect" Value="Select" class="button">
+<input type="button" onclick="location.href='updatestu.php'" name="btnupdate" Value="Update" class="button">
+<input type="button" onclick="location.href='deletestu.php'" name="btndelete" Value="Delete" class="button">
+<input type="button" onclick="location.href='Adminhome.html'" Value="Home" class="button"><br><br>
+</form>
+</body>
+</html>
